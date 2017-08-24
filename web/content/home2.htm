@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<script src="https://www.w3schools.com/lib/w3.js"></script>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="../css/header/curriculo.css">
+  <title>Curriculo</title>
+</head>
+<body>
+<section id="main">
+    <!--Curriculo content-->
+<h1>Cadastre seu currículo</h1>
+<form name="Curriculo">
+    <div class="session">
+    <h2>1. Dados Pessoais </h2> <br>
+    <label>Nome</label> <input type="text" name="nome" placeholder="Digite seu nome" /> <br>
+    <label>Data de nascimento</label> <input type="date" name="dataNascimento" /> <br>
+    <label>Estado Civil</label> 
+                <select name="estadoCivil">
+                    <option value="solteiro">Solteiro</option>
+                    <option value="casado">Casado</option>
+                    <option value="viuvo">Viúvo</option>
+                    <option value="divorciado">Divorciado</option>
+                 </select> <br>
+    <label>Sexo</label> <input type="radio" name="sexo" value="masculino" />Masculino
+         <input type="radio" name="sexo" value="feminino" />Feminino<br>
+    </div>
+    <div clas="session">
+    <h2>2. Objetivo</h2> <br>
+    <label>Objetivo</label> <textarea name="Objetivo" placeholder="Digite seu objetivo" cols="30"></textarea>
+    </div>
+    <div clas="session">
+            <h2>2. Objetivo</h2> <br>
+            <label>Objetivo</label> <textarea name="Objetivo" placeholder="Digite seu objetivo" cols="30"></textarea>
+            </div>
+</form>
+</section>
+<script>
+        w3.includeHTML();
+</script>
+</body>
+</html>

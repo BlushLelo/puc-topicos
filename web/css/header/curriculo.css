@@ -1,0 +1,11 @@
+h2 {
+    color: Blue;
+    margin-bottom: 0px;
+}
+
+label {
+    display: inline-block;
+    color: blue;
+    background-color: rgba(204, 188, 188, 0.76);
+    width: 9em;
+}
