@@ -1,11 +1,30 @@
+h1 {
+    background-color: white;
+}
+
 h2 {
     color: Blue;
+    background-color: white;
     margin-bottom: 0px;
 }
+
 
 label {
     display: inline-block;
     color: blue;
     background-color: rgba(204, 188, 188, 0.76);
     width: 9em;
+}
+
+
+.campo {
+    margin-bottom: 5px;
+    white-space: nowrap;
+    margin-left: 5px;
+    width: 13em;
+    box-sizing:border-box;
+}
+
+.teste {
+    background-color: grey;
 }
